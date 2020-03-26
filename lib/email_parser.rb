@@ -11,8 +11,8 @@ class EmailAddressParser
   end
 
   def parse
-    @listemail.split(', ').uniq
-      #  @listemail.split.map {|i| i.split(',')}.flatten.uniq
+  #  @listemail.split(', ').uniq
+    @listemail.split.map {|i| i.split(',')}.flatten.uniq
   end
 
 end
