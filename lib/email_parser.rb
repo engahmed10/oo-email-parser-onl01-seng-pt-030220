@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-  attr_accessor:listemail
+  #attr_accessor:listemail
 
   def initialize(listemail)
      @listemail=listemail
